@@ -1,0 +1,10 @@
+model,band,MAE,n
+Linear Regression,Low,200.2116999713253,1397
+Linear Regression,Medium,239.78498764212927,869
+Linear Regression,High,259.83173444076084,336
+Random Forest,Low,154.4850159309081,1397
+Random Forest,Medium,178.5728976751538,869
+Random Forest,High,169.23540352280028,336
+Gradient Boosting,Low,159.66545611187132,1397
+Gradient Boosting,Medium,191.57701779547364,869
+Gradient Boosting,High,180.02414086696857,336

@@ -1,0 +1,37 @@
+{
+  "shap_summary_created": true,
+  "top_features_best": [
+    {
+      "feature": "volume_lag167",
+      "perm_importance_rmse": 871.7335420010198
+    },
+    {
+      "feature": "volume_t",
+      "perm_importance_rmse": 300.9686367541184
+    },
+    {
+      "feature": "hour_cos",
+      "perm_importance_rmse": 108.35139727395456
+    },
+    {
+      "feature": "volume_lag23",
+      "perm_importance_rmse": 38.16836558029102
+    },
+    {
+      "feature": "is_holiday",
+      "perm_importance_rmse": 25.550114519294407
+    },
+    {
+      "feature": "target_hour",
+      "perm_importance_rmse": 22.840393997480408
+    },
+    {
+      "feature": "vol_diff1",
+      "perm_importance_rmse": 20.291871099594612
+    },
+    {
+      "feature": "hour_sin",
+      "perm_importance_rmse": 14.192146478740787
+    }
+  ]
+}

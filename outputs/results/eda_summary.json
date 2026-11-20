@@ -1,0 +1,86 @@
+{
+  "rows": 17520,
+  "columns": 22,
+  "period": [
+    "2022-01-01 00:00:00",
+    "2023-12-31 23:00:00"
+  ],
+  "all_gaps_are_1h": true,
+  "duplicate_timestamps": 0,
+  "raw_queue_missing_rows": 377,
+  "raw_missing_rows_equal_faulty_rows": true,
+  "clean_equals_raw_on_healthy_rows": true,
+  "faulty_rows": 377,
+  "faulty_share_pct": 2.15,
+  "volume_identical_raw_vs_clean": true,
+  "congestion_band_ranges": {
+    "High": [
+      4501,
+      6040
+    ],
+    "Low": [
+      200,
+      2499
+    ],
+    "Medium": [
+      2500,
+      4500
+    ]
+  },
+  "weather_description_duplicates_weather_main": true,
+  "ambulance_events": 535,
+  "incident_events": 324,
+  "holiday_hours": 336,
+  "stats": {
+    "corr_queue_vs_volume_healthy": {
+      "queue_north": 0.751,
+      "queue_south": 0.696,
+      "queue_east": 0.656,
+      "queue_west": 0.528
+    },
+    "corr_queue_vs_volume_faulty": {
+      "queue_north": 0.634,
+      "queue_south": 0.615,
+      "queue_east": 0.512,
+      "queue_west": 0.439
+    },
+    "autocorr_lag1": 0.873,
+    "autocorr_lag24": 0.842,
+    "autocorr_lag168": 0.972,
+    "mean_volume_weekday": 2631.5,
+    "mean_volume_weekend": 1909.5,
+    "mean_volume_incident_vs_none": [
+      2423.1,
+      2423.8
+    ],
+    "incident_mannwhitney_p": 0.9893,
+    "ambulance_mannwhitney_p": 0.0931,
+    "mean_queue_by_direction": {
+      "North": 3.77,
+      "South": 2.76,
+      "East": 2.28,
+      "West": 1.79
+    },
+    "queue_share_by_direction_healthy": {
+      "North": 0.356,
+      "South": 0.261,
+      "East": 0.215,
+      "West": 0.168
+    },
+    "congestion_class_share_pct": {
+      "Low": 53.4,
+      "Medium": 33.1,
+      "High": 13.5
+    },
+    "ambulance_by_direction": {
+      "East": 150,
+      "North": 136,
+      "South": 126,
+      "West": 123
+    },
+    "peak_hour_mean_volume": {
+      "hour": 17,
+      "volume": 4791.0
+    }
+  }
+}

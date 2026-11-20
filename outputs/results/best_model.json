@@ -1,0 +1,45 @@
+{
+  "selection": {
+    "lowest_val_rmse_model": "Random Forest",
+    "within_tolerance": [
+      "Random Forest"
+    ],
+    "selected": "Random Forest",
+    "lowest_test_rmse_model": "Random Forest",
+    "test_confirms_selection": true,
+    "tolerance": 0.02
+  },
+  "baselines": [
+    {
+      "baseline": "Persistence (volume_t)",
+      "MAE": 560.8462720983858,
+      "RMSE": 744.0195514940319,
+      "R2": 0.7463886900580907
+    },
+    {
+      "baseline": "Seasonal naive (same hour last week)",
+      "MAE": 247.65795541890853,
+      "RMSE": 349.10810154475274,
+      "R2": 0.9441632958309876
+    }
+  ],
+  "pairwise": [
+    {
+      "selected": "Random Forest",
+      "other": "Linear Regression",
+      "rmse_diff_selected_minus_other": -71.67946495044598,
+      "ci95_low": -84.07829333780577,
+      "ci95_high": -60.82879509064867,
+      "significant": true
+    },
+    {
+      "selected": "Random Forest",
+      "other": "Gradient Boosting",
+      "rmse_diff_selected_minus_other": -10.946297110043933,
+      "ci95_low": -14.702066649986707,
+      "ci95_high": -7.111415036589614,
+      "significant": true
+    }
+  ],
+  "mean_test_volume": 2417.771329746349
+}

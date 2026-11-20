@@ -1,0 +1,62 @@
+{
+  "train": {
+    "rows": 12146,
+    "from": "2022-01-07 23:00:00",
+    "to": "2023-05-29 00:00:00"
+  },
+  "val": {
+    "rows": 2602,
+    "from": "2023-05-29 02:00:00",
+    "to": "2023-09-14 11:00:00"
+  },
+  "test": {
+    "rows": 2602,
+    "from": "2023-09-14 13:00:00",
+    "to": "2023-12-31 22:00:00"
+  },
+  "n_features": 42,
+  "features": [
+    "volume_t",
+    "volume_lag1",
+    "volume_lag2",
+    "volume_lag3",
+    "volume_lag6",
+    "volume_lag12",
+    "volume_lag24",
+    "volume_lag48",
+    "volume_lag23",
+    "volume_lag167",
+    "vol_roll_mean3",
+    "vol_roll_mean6",
+    "vol_roll_mean24",
+    "vol_roll_std6",
+    "vol_roll_std24",
+    "vol_diff1",
+    "hour_sin",
+    "hour_cos",
+    "target_hour",
+    "target_dow",
+    "target_is_weekend",
+    "target_month",
+    "is_holiday",
+    "temp",
+    "rain_1h",
+    "snow_1h",
+    "clouds_all",
+    "weather_Clear",
+    "weather_Clouds",
+    "weather_Drizzle",
+    "weather_Fog",
+    "weather_Mist",
+    "weather_Rain",
+    "weather_Snow",
+    "weather_Thunderstorm",
+    "queue_north_h",
+    "queue_south_h",
+    "queue_east_h",
+    "queue_west_h",
+    "queue_total_h",
+    "queue_total_roll3",
+    "sensor_faulty"
+  ]
+}

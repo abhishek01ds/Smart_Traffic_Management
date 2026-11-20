@@ -1,0 +1,15 @@
+{
+  "Linear Regression": {},
+  "Random Forest": {
+    "n_estimators": 200,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "max_features": 0.5
+  },
+  "Gradient Boosting": {
+    "n_estimators": 300,
+    "learning_rate": 0.1,
+    "max_depth": 4,
+    "subsample": 0.8
+  }
+}
